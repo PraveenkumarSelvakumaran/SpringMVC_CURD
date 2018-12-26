@@ -18,7 +18,7 @@ import com.praveen.tutorial.spring.model.User;
  */
 
 @Service
-@Transactional(readOnly = true)
+@Transactional(readOnly = false)
 public class UserServiceImp implements UserService{
 
 	@Autowired
